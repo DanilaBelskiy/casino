@@ -33,7 +33,7 @@ def color_number_table():
         30: "red",
         31: "black",
         32: "red",
-        33: "red",
+        33: "black",
         34: "red",
         35: "black",
         36: "red",
