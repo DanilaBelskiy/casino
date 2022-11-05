@@ -5,6 +5,10 @@ from win_lose_check import win_lose_check
 
 import time
 
+"""
+Graphical user interface class
+"""
+
 
 class Window(QMainWindow):
     def __init__(self):

@@ -1,5 +1,12 @@
 from rotation_result import RotationResult
 
+"""
+Function takes bet and result of rotation
+Bet should be 'red', 'black', or number
+
+Returns coefficient how many money user wins (int), or error message (String)
+"""
+
 
 def rate_coefficient(rate, result: RotationResult):
     number = result.get_number()

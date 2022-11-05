@@ -1,6 +1,16 @@
 from rate_coefficient import rate_coefficient
 from rotation_result import RotationResult
 
+"""
+Function for check result of play
+Function takes users bet
+Bet should be 'red', 'black', or number
+
+Function returns array, 
+where first element is result of rotation (int)
+and second element is win coefficient (int) or error message for user (String)
+"""
+
 
 def win_lose_check(bet):
 

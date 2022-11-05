@@ -2,6 +2,15 @@ from rotation_result import RotationResult
 from rate_coefficient import rate_coefficient
 
 
+"""
+Start console application
+Application is game in roulette
+User have capital
+He can bet money on number or color
+He can win money or lose
+"""
+
+
 def console_application(capital=100, ):
     while capital > 0:
         print(f"Your current capital = {capital}")

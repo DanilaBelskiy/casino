@@ -1,3 +1,9 @@
+"""
+Return dictionary with numbers and colors
+Numbers and colors like in real life roulette
+"""
+
+
 def color_number_table():
     return {
         0: "green",

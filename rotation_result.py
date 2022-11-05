@@ -1,6 +1,12 @@
 import random
 from color_number_table import color_number_table
 
+"""
+The class is one rotation of the roulette
+It have number and color
+Number is random
+"""
+
 
 class RotationResult:
 
