@@ -2,11 +2,11 @@ from rotation_result import RotationResult
 from rate_coefficient import rate_coefficient
 
 
-def app(capital=100, ):
+def console_application(capital=100, ):
     while capital > 0:
         print(f"Your current capital = {capital}")
 
-        inp = input("Input your rate and your rate type: ")
+        inp = input("Input your bet and your bet type: ")
         inp = inp.split(' ')
 
         if len(inp) != 2:
@@ -19,18 +19,15 @@ def app(capital=100, ):
         try:
             rate = int(rate)
         except ValueError:
-            print("Input {rate} {type of your rate}\n")
+            print("Input {bet} {type of your bet}\n")
             continue
 
         if rate > capital:
             print("You haven't those money\n")
             continue
 
-        capital -= rate
-
         rotation = RotationResult()
 
-        rotation.print()
         coefficient = rate_coefficient(rate_type, rotation)
 
         try:
@@ -42,10 +39,14 @@ def app(capital=100, ):
                 print("Try input 'red', 'black' or number\n")
             continue
 
+        capital -= rate
+
         if coefficient > 0:
             capital += rate * (coefficient + 1)
+        rotation.print()
 
-        print()
+        if capital > 0:
+            print("-------------------Next try--------------------------")
 
     print("Capital = 0")
     print("You a bankrupt")
