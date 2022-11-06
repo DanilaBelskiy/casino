@@ -1,7 +1,5 @@
 This is a simple game, an analogue of roulette from a real casino
 
-![Game](https://github.com/DanilaBelskiy\casino\master\readme_resources\app.PNG)
-
 To download use
 
 ```console
