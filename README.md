@@ -1,6 +1,6 @@
 This is a simple game, an analogue of roulette from a real casino
 
-![Game](readme_resources\app.png)
+![Game](readme_resources\app.PNG)
 
 To download use
 
