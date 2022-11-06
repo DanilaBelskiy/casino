@@ -118,7 +118,7 @@ class Window(QMainWindow):
 
         # Create rate-interface
         self.rate_text = QtWidgets.QLabel(self)
-        self.rate_text.setText("Chose your rate:")
+        self.rate_text.setText("Chose your bet:")
         self.rate_line = QLineEdit(self)
 
         # Set geometry for rate-interface
@@ -130,7 +130,7 @@ class Window(QMainWindow):
         self.rate_line.setFont(QtGui.QFont("Comic Sans", 20))
 
         # Set style for rate-interface
-        self.rate_text.setStyleSheet("color : white")
+        self.rate_text.setStyleSheet("color : white; background-image : url()")
         self.rate_line.setStyleSheet("color : white")
 
         # Create play button
